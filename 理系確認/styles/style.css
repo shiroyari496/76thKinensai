@@ -1,0 +1,175 @@
+html {
+  background-color: white;
+}
+
+body {
+  background-color: black;
+  
+  width: 600px;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+
+h1, p[id="anataga"] {
+  text-align: center;
+  color: white;
+  
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p[id="anataga"] {
+  font-size: 15px;
+}
+
+div[id="checkbox"] {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  user-select: none;
+  cursor: pointer;
+  
+  width: 230px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+div[id="checkboxL"] {
+  font-size: 20px;
+  color: black;
+  
+  margin: auto 0;
+}
+
+input[id="checkboxBox"] {
+  transform: scale(2);
+  accent-color: #0072ff;
+  cursor: pointer;
+}
+
+div[id="checkboxR"] {
+  font-size: 10px;
+  color: #808080;
+  
+  margin: auto 0;
+}
+
+img[id="checkboxImg"] {
+  display: block;
+  
+  width: 30px;
+  margin: auto;
+}
+
+div[id="test"] {
+  background-color: white;
+  user-select: none;
+  
+  width: 310px;
+  padding: 5px 0;
+  margin: 10px auto;
+}
+
+div[id="testDai"] {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0072ff;
+  
+  padding: 5px;
+  margin: 0 5px;
+}
+
+p[id="testDaiBun"] {
+  text-align: start;
+  font-size: 10px;
+  color: white;
+  
+  margin: auto 0;
+}
+
+p[id="testDaiBun"] strong {
+  font-size: 30px;
+}
+
+div[id="testRei"] {
+  background-color: black;
+  text-align: center;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  
+  width: 65px;
+  height: 65px;
+}
+
+div[id="testSentaku"] {
+  margin: 5px;
+}
+
+div.yokonarabi {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.square {
+  background-color: black;
+  text-align: center;
+  line-height: 98px;
+  font-size: 25px;
+  color: white;
+  
+  width: 98px;
+  height: 98px;
+  margin: 1px;
+}
+
+p[id="result"] {
+  text-align: center;
+  font-size: 20px;
+  
+  padding: 0 20px;
+  border-bottom: 1px solid #808080;
+  margin: 0;
+}
+
+div[id="buttons"] {
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 5px 10px;
+}
+
+div[id="buttonL"] {
+  margin: auto 0;
+}
+
+img[id="button1"], img[id="button2"], img[id="button3"] {
+  cursor: pointer;
+  vertical-align: middle;
+  
+  width: 35px;
+}
+
+div[id="Go"] {
+  background-color: #0072ff;
+  cursor: pointer;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  color: white;
+  
+  width: 55px;
+  height: 35px;
+  margin: auto 0;
+}
+
+p[id="info"] {
+  text-align: start;
+  font-size: 10px;
+  
+  padding: 0 20px;
+  margin: 0;
+}

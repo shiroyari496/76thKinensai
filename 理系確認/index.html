@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>理系証明</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/reinoColor.png">
+  </head>
+  <body>
+    <h1>
+      ちょっと待って! あなた、<br>
+      本当に理系ですよね？
+    </h1>
+    <p id="anataga">あなたが理系であることを確認させてください。</p>
+    
+    <div id="checkbox">
+      <div id="checkboxL">
+        <input type="checkbox" id="checkboxBox" checked>
+        私は理系です
+      </div>
+      <div id="checkboxR">
+        <img src="images/reinoColor.png" alt="レイノ図形" id="checkboxImg">
+        tan/Q/sin
+      </div>
+    </div>
+    
+    <div id="test">
+      <div id="testDai">
+        <p id="testDaiBun">
+          <strong>素数</strong><br>
+          をすべて選択してください
+        </p>
+        <div id="testRei">2</div>
+      </div>
+      
+      <div id="testSentaku">
+        <div class="yokonarabi">
+          <div class="square" id="sentaku1">    7</div>
+          <div class="square" id="sentaku2">  133</div>
+          <div class="square" id="sentaku3">  143</div>
+        </div>
+        <div class="yokonarabi">
+          <div class="square" id="sentaku4"> 9973</div>
+          <div class="square" id="sentaku5">11111</div>
+          <div class="square" id="sentaku6"> 1021</div>
+        </div>
+        <div class="yokonarabi">
+          <div class="square" id="sentaku7"> 1001</div>
+          <div class="square" id="sentaku8">   28</div>
+          <div class="square" id="sentaku9">   57</div>
+        </div>
+      </div>
+      
+      <p id="result"></p>
+      
+      <div id="buttons">
+        <div id="buttonL">
+          <img src="images/button1.jpg" alt="別の数を表示" id="button1" title="別の数を表示">
+          <img src="images/button2.jpg" alt="確認用の数を音声として聞く" id="button2" title="確認用の数を音声として聞く">
+          <img src="images/button3.jpg" alt="ヘルプ" id="button3" title="ヘルプ">
+        </div>
+        <div id="Go">Go</div>
+      </div>
+      
+      <p id="info"></p>
+    </div>
+    
+    <script src="scripts/nums.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+  </body>
+</html>
